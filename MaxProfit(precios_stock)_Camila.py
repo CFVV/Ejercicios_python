@@ -27,7 +27,7 @@ def MaxProfit(precios_stock):
         print("No se ha ingresado ninguna lista de precios, intente nuevamente.")
         return 0
     
-    valor_minimo = lista_int[0] #la variable "primer_valor" toma el primer valor de la lista de input
+    valor_minimo = lista_int[0] #la variable "valor_minimo" toma el primer valor de la lista de input
     
     for precio in range(cant_precios):
         valor_minimo = min(valor_minimo, lista_int[precio])
